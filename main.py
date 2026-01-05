@@ -1,4 +1,4 @@
-
+#test
 from flask import Flask, render_template, redirect, request, session, url_for
 
 from flask_session import Session
@@ -113,4 +113,5 @@ def register():
 
     return render_template("register.html")
 if __name__=="__main__":
+
     app.run(debug=True)
